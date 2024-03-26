@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Madimi+One&family=Noto+Sans+KR:wght@100..900&display=swap"
+        rel="stylesheet">
+    <title>다옴</title>
+</head>
+
+
+<body>
+    <div id="wrap">
+        <nav id="top">
+            <div class="log_nav">
+                <div class="login"><a href="#">로그인</a></div>
+                <div class="sign_up"><a href="#">회원가입</a></div>
+                <div class="account"><a href="#">계정관리</a></div>
+                <div class="search">
+                    <a href="#">
+                        <p>검색</p>
+                        <img src="search.png" alt="" width="100%">
+                    </a>
+                </div>
+            </div>
+    </div>
+
+    <nav id="nav">
+        <a href="index.html">
+            <div class="logo"></div>
+        </a>
+        <ul class="ment">
+            <li><a href="index(상호명).html">상호명</a></li>
+            <li><a href="index(술).html">술</a></li>
+            <li><a href="index(메뉴).html">메뉴</a></li>
+            <li><a href="index(찾아오시는 길).html">찾아오시는 길</a></li>
+            <li><a href="index(질의응답).html">질의응답</a></li>
+        </ul>
+        <a href="#">
+            <div class="agency"></div>
+        </a>
+    </nav>
+
+    <div style="clear: both;"></div>
+
+    <section class="wrapper">
+        <article class="banner">
+            <div>
+                <div class="container">
+                    <h2 class="blinking__txt"></h2>
+                    <span class="cursor">|</span>
+                </div>
+            </div>
+        </article>
+    </section>
+
+
+    <div class="main_menu"></div>
+    <div class="signature"></div>
+
+    <!-- <a href="#" class="login">로그인</a>
+        <a href="#" class="sign_up">회원가입</a>
+        <a href="#" class="account">계정관리</a>
+        <a href="#" class="search">
+            <div>검색</div>
+            <div>
+                <img src="" alt="">
+            </div>
+        </a> -->
+
+    </div>
+
+
+    <script>
+
+        const blink = document.querySelector('.blinking__txt');
+        const cursor = document.querySelector('.cursor');
+
+        const typing = function (_, counter = 0) {
+            const txt = `다옴은 \n 하는 일마다 모두 [행복] \n 이 옴 의미를 담은 이름입니다.`;
+
+            setInterval(() => {
+                if (txt.length === counter) {
+                    cursor.classList.add('blink_animate');
+                    return;
+                };
+                blink.textContent += txt[counter];
+                counter++;
+            }, 120);
+        }
+
+        window.addEventListener('load', typing);
+    </script>
+
+
+</body>
+
+</html>

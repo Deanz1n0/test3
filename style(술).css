@@ -1,0 +1,235 @@
+
+@font-face {
+    font-family: 'YEONGJUSeonbiTTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403@1.0/YEONGJUSeonbiTTF.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+    margin: 0;
+}
+
+*>a{
+    text-decoration: none;
+}
+
+#wrap{
+    position: relative;
+    width: 100%;
+}
+
+#top {
+    background-color: #111;
+    display: flex;
+    width: 100%;
+}
+
+#top a:link{
+    color: #f4f4f4;
+}
+
+#top a:visited{
+    color: #f4f4f4;
+}
+
+#top{
+    padding: 3px 0px;
+}
+
+.log_nav{
+    display: flex;
+    margin-left: auto;
+    margin-right: 400px;
+    color: #f4f4f4;
+}
+
+.log_nav>div{
+    font-size: 0.875em;
+    padding: 1px 36px;
+}
+
+.log_nav>div:nth-child(4){
+    padding: 1px 0px 1px 36px;
+}
+
+.search>a{
+    display: flex;
+}
+
+.search>a>img{
+    margin-left: 4px;
+    width: 20px;
+    height: 20px;
+}
+
+.sign_up{
+    border-left: 1px solid #f4f4f4;
+    border-right: 1px solid #f4f4f4;
+}
+
+.account{
+    border-right: 1px solid #f4f4f4;
+}
+
+
+#nav{
+    padding: 12px 400px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 120px;
+    background-color: #f4f4f4;
+    border-bottom: 2px solid #111;
+    color: #111;
+}
+
+.logo{
+    background-image: url(only\ 다옴\ 찐찐.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 12%;
+    height: 92px;
+    float: left;
+    padding: 14px;
+    box-sizing: border-box;
+}
+
+.ment{
+    display: flex;
+    float: left;
+    width: 72%;
+}
+
+.ment>li{
+    list-style: none;
+    padding: 36px 0px;
+    margin: auto;
+}
+
+.ment a{
+    font-size: 1em;
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+.ment a:link{
+    color: #111;
+}
+
+.ment a:visited{
+    color: #111;
+}
+
+.agency{
+    background-image: url(agency.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    /* border-radius: 16px; */
+    width: 12%;
+    height: 80px;
+    margin-top: 6px;
+    float: left;
+}
+
+.korea_ac{
+    margin: auto;
+    padding-top: 32px;
+}
+
+.korea_ac>p{
+    text-align: center;
+    font-family: 'YEONGJUSeonbiTTF';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+.alcohol{
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.kr_alcohol{
+    float: left;
+    margin: 14px;
+}
+
+.kr_alcohol_pic{
+    background-image: url(alcohol_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 250px;
+    height: 250px;
+    border-radius: 4px;
+}
+
+.kr_alcohol_pic>img{
+    margin: 5px;
+    width: 240px;
+    height: 240px;
+}
+
+.kr_alcohol_pic>img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
+/* .daom_mak{
+    background-image: url(daom_mak.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 250px;
+    height: 250px;
+    border-radius: 4px;
+} */
+
+
+.kr_alcohol>p{
+    width: 250px;
+    margin-top: 12px;
+    text-align: center;
+    font-family: 'YEONGJUSeonbiTTF';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.125em;
+}
+
+/* .rice_soju{
+    background-image: url(rice_soju.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 250px;
+    height: 250px;
+    border-radius: 4px;
+}
+
+.hwayo{
+    background-image: url(hwayo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 250px;
+    height: 250px;
+    border-radius: 4px;
+}
+
+.jinlo{
+    background-image: url(jinlo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 250px;
+    height: 250px;
+    border-radius: 4px;
+} */
+
